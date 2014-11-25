@@ -415,7 +415,7 @@ class Gear(object):
     <!DOCTYPE html>
     <html>
     <head>
-    <title>第十二週第六個程式: 字串與變數串接</title>
+    <title> 第十二週第六個程式: 字串與變數串接</title>
     </head>
     <body>
     <h1>第十二週第六個程式: 字串與變數串接</h1>
