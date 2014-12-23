@@ -128,7 +128,14 @@ application_conf = {# 設定靜態 templates 檔案目錄對應
         'tools.staticdir.root': template_root_dir,
         'tools.staticdir.dir': 'templates',
         'tools.staticdir.index' : 'index.htm'
-        }
+        },
+        '/static':{
+        'tools.staticdir.on': True,
+        'tools.staticdir.root': template_root_dir,
+        'tools.staticdir.dir': 'weblink/examples/jscript',
+        'tools.staticdir.index' : 'index.htm'
+        },
+        
     }
 if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
     # 表示在 OpenSfhit 執行
