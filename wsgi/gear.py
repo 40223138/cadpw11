@@ -258,7 +258,11 @@ class Gear(object):
         if(counter<5000):
             outstring = "進行"+str(counter)+"次重複運算後,得到合用的facewidth值為:"+str(facewidth)
         return outstring
+<<<<<<< HEAD
     #@+node:.20141227195129.1825: *3* cube_weblink
+=======
+    #@+node:2015.20141223093829.1895: *3* cube_weblink
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def cube_weblink(self):
         outstring = '''<script type="text/javascript" src="/static/pfcUtils.js"></script>
@@ -330,7 +334,11 @@ class Gear(object):
     </script>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141227195129.1827: *3* gear_weblink
+=======
+    #@+node:2015.20141223093829.1893: *3* gear_weblink
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def gear_weblink(self, facewidth=5, n=18):
         outstring = '''<script type="text/javascript" src="/static/pfcUtils.js"></script>
@@ -405,7 +413,11 @@ class Gear(object):
     // ]]></script>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141130205923.2015: *3* w12-1
+=======
+    #@+node:2015.20141125100325.1817: *3* w12-1
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def w12_1(self, *args, **kwargs):
         outstring = '''
@@ -420,7 +432,11 @@ class Gear(object):
           </html>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141130205923.2019: *3* w12-2
+=======
+    #@+node:2015.20141125100325.1819: *3* w12-2
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def w12_2(self, *args, **kwargs):
         outstring = '''
@@ -441,7 +457,11 @@ class Gear(object):
         </html>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141130205923.2021: *3* w12-3
+=======
+    #@+node:2015.20141125100325.1827: *3* w12-3
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def w12_3(self, *args, **kwargs):
         outstring = '''
@@ -463,7 +483,11 @@ class Gear(object):
          </html>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141130205923.2023: *3* w12-4
+=======
+    #@+node:2015.20141125100325.1831: *3* w12-4
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def w12_4(self, *args, **kwargs):
         outstring = '''
@@ -519,7 +543,11 @@ class Gear(object):
     </html>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141130205923.2025: *3* w12-5
+=======
+    #@+node:2015.20141125100325.1833: *3* w12-5
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def w12_5(self, *args, **kwargs):
         outstring = '''
@@ -555,7 +583,11 @@ class Gear(object):
     </html>
     '''
         return outstring
+<<<<<<< HEAD
     #@+node:.20141130205923.2027: *3* w12-6
+=======
+    #@+node:2015.20141125100325.1835: *3* w12-6
+>>>>>>> 658791e9b5f89f5c4a98cd476df6faabe244bcbd
     @cherrypy.expose
     def w12_6(self, *args, **kwargs):
         outstring = '''
