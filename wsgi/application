@@ -130,7 +130,7 @@ application_conf = {# 設定靜態 templates 檔案目錄對應
         '/static':{
         'tools.staticdir.on': True,
         'tools.staticdir.root': template_root_dir,
-        'tools.staticdir.dir': 'weblink/examples/jscript',
+        'tools.staticdir.dir': weblink/examples/jscript,
         'tools.staticdir.index' : 'index.htm'
         },
         
